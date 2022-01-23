@@ -1,0 +1,46 @@
+body{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.btn{
+    
+    text-decoration: none;  /* Quintamos el color azul del link*/
+    font-size: 20px;         /* Es el groso de la letras*/
+    font-weight: bold;
+    color: white;
+    background-color: #4a4a4bcc;
+    border-radius: 15px;
+    border: 2px solid #ffffffcc;
+    padding: 10px;
+}
+
+.btn:hover{
+    color: #fff ;
+    background-color:#1c1c1c ;
+    border: 2px solid #eb520bde;
+}
+
+.row-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+
+.titulo-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 13em;
+}
+
+.titulo-c{
+
+}
