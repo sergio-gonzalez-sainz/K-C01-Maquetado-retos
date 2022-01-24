@@ -4,7 +4,6 @@ body{
 }
 
 .btn{
-    
     text-decoration: none;  /* Quintamos el color azul del link*/
     font-size: 20px;         /* Es el groso de la letras*/
     font-weight: bold;
@@ -19,6 +18,23 @@ body{
     color: #fff ;
     background-color:#1c1c1c ;
     border: 2px solid #eb520bde;
+}
+
+.btn-03{
+    text-decoration: none;  /* Quintamos el color azul del link*/
+    font-size: 20px;         /* Es el groso de la letras*/
+    font-weight: bold;
+    color: white;
+    background-color: #4a4a4bcc;
+    border-radius: 15px;
+    border: 2px solid #ffffffcc;
+    padding: 10px;
+}
+
+.btn-03:hover{
+    color: #fff ;
+    background-color:#1c1c1c ;
+    border: 2px solid #43cee0de;
 }
 
 .row-btn {
@@ -48,4 +64,10 @@ body{
     background-color: white;  
     color: #4a4a4bcc;  
     text-align: center;  
+}
+
+hr{
+    margin-top: 20px;
+    width: 40%;
+    border: 1px solid white;
 }

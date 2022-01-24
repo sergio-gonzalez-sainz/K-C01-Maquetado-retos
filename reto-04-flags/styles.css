@@ -1,0 +1,144 @@
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Bandera de Francia */
+.france{
+    display: flex;
+    width: 50%;
+    height: 250px;
+}
+
+.blue{
+    width: 33.3%;
+    height: 250px;
+    background-color: #002395;
+}
+
+.white{
+    width: 33.3%;
+    height: 250px;
+}
+
+.red{
+    width: 33.3%;
+    height: 250px;
+    background-color: #ED2939;
+}
+/* Bandera de Alemania */
+.germany{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    margin-top: 3em;
+}
+.germany-black{
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+}
+
+.germany-red{
+    width: 100%;
+    height: 33.33%;
+    background-color: #FF0000;
+}
+
+.germany-yellow{
+    width: 100%;
+    height: 33.33%;
+    background-color: #FFCC00;
+}
+/*Bandera de Inglaterra*/
+.england{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+    margin-top: 3em;
+    border: 1px solid black;
+}
+.england-red-v{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 100%;
+    background-color: rgb(200, 16, 46) ; 
+}
+
+.england-red-h{
+    width: 470px;
+    height: 62px;
+    background-color: rgb(200, 16, 46) ;
+
+}
+
+/*Bandera de Japon*/
+
+.japan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+    margin-top: 3em;
+    border: 1px solid black;
+}
+.japan-c{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(188,0,45) ;
+}
+
+/*Bandera de México*/
+
+.mexico{
+    display: flex;
+    width: 50%;
+    height: 250px;
+    margin-top: 3em;
+}
+
+.mx-green{
+    width: 33.3%;
+    height: 250px;
+    background-color: #006847;
+}
+
+.mx-white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    width: 33.3%;
+    height: 250px;
+}
+
+.mx-white img{
+    width: 80%;
+}
+
+.mx-red{
+    width: 33.3%;
+    height: 250px;
+    background-color: #CE1125;
+}
+
+
+
+
+
+
+
+
+
+
