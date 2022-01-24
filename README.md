@@ -1,5 +1,5 @@
 # Kodemia-Maquetado-retos-C01
-## [WEB](sergio-gonzalez-sainz.github.io/kodemia-maquetado-retos-c01/)
+## [GitHub Page](https://sergio-gonzalez-sainz.github.io/Kodemia-Maquetado-retos-C01/)
 
 # Codigo fuente
 
