@@ -1,0 +1,120 @@
+/* 
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+*/
+
+body{
+   
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-col{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%) ;
+    border: 2px solid white; /*Bandera*/
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 30px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+
+.col-img{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+.col-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-titulo{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.col-date{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.col-date-1{
+    display: flex;
+}
+
+.col-date-2{
+    display: flex;
+}
+
+hr{
+    border-width: 1px;
+    width: 100%;
+    background-color: hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+div div div div p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.p-color{
+    color: rgb(0,255,248);
+    font-weight: 500;
+}
+
+.col-perfil{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-avatar{
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.p-avatar{
+    font-size: 15px;
+}

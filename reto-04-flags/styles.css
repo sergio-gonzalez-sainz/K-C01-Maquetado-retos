@@ -55,7 +55,7 @@
 /*Bandera de Inglaterra*/
 .england{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 50%;
@@ -65,19 +65,18 @@
 }
 .england-red-v{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 62px;
-    height: 100%;
+    width: 100%;
+    height: 62px;
     background-color: rgb(200, 16, 46) ; 
 }
 
 .england-red-h{
-    width: 470px;
-    height: 62px;
+    width: 250px;
+    height: 100%;
     background-color: rgb(200, 16, 46) ;
-
 }
 
 /*Bandera de Japon*/
