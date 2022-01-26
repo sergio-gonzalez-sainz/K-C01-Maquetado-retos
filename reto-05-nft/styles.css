@@ -40,7 +40,6 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsl(217, 54%, 11%) ;
-    border: 2px solid white; /*Bandera*/
 }
 
 .col{
