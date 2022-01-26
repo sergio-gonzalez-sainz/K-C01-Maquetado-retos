@@ -14,3 +14,6 @@
 
 ## [Terea 04: World Flags](https://github.com/sergio-gonzalez-sainz/Kodemia-Maquetado-retos-C01/tree/master/reto-04-flags)
 ![CV](img/flags.png) 
+
+## [Terea 05: Cart NFT](https://github.com/sergio-gonzalez-sainz/Kodemia-Maquetado-retos-C01/tree/master/reto-05-nft)
+![CV](img/nft.png) 
