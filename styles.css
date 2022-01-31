@@ -7,7 +7,6 @@ body{
 .col-main{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -84,12 +83,11 @@ body{
 
 .titulo-p{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 1em;
     font-size: 35px;
-    height: 100px;
+    height: 50px;
 }
 
 .alto{
@@ -104,7 +102,11 @@ body{
     background-color: rgba(255, 255, 255, 0.877);  
     color: #4a4a4bcc;  
     text-align: center; 
-    text-decoration: none;text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #1c1c1c;
 }
 
 hr{
@@ -125,4 +127,27 @@ hr{
     justify-content: flex-end;
     width: 50%;
     font-size: 20px;
+}
+
+.btn-05{
+    display: flex;
+    text-decoration: none;  /* Quintamos el color azul del link*/
+    font-size: 30px;         /* Es el groso de la letras*/
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    background-color:#1c1c1c ;
+    border: 2px solid #f4f808de;
+    padding: 10px;
+}
+
+.btn-05:hover{
+    color: #f4f808de ;
+    font-weight: bold;
+    font-size: 32px;
+    border: 1px solid #f4f808de; 
+}
+
+.espacio{
+    height: 400px;
 }
