@@ -53,8 +53,15 @@ a:hover{
 
 .login{
     display: flex;
+    justify-content: center;
+    padding: 6px 11px;
     width: 4%;
  
+}
+
+.login:hover{
+    background-color:rgba(170, 172, 216, 0.249);
+    border-radius: 6px;
 }
 
 .createAccount{
