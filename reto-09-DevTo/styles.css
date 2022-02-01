@@ -189,6 +189,7 @@ a {
 }
 
 .titulos{
+    color: #242424;
     font-size: 14px;
     font-weight: bold;
 }
@@ -247,6 +248,8 @@ a {
     background-color: rgba(170, 172, 216, 0.249);
     cursor: pointer;
 }
+
+
 
 @media (max-width: 744px){
     .itemSearch{
