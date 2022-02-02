@@ -55,7 +55,7 @@ a:hover{
     display: flex;
     justify-content: center;
     padding: 6px 11px;
-    width: 4%;
+    width: 6%;
  
 }
 
@@ -248,8 +248,92 @@ a {
     background-color: rgba(170, 172, 216, 0.249);
     cursor: pointer;
 }
+/*  Redes Sociales*/ 
 
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.itemRedSocial{
+    padding: 4px 4px;
+}
+
+.itemRedSocial:hover{
+    background-color: rgba(170, 172, 216, 0.249);
+    border-radius: 4px;
+}
+
+.itemRedSocialColor{
+    color: #3B49DF;
+}
+
+/*Scrol del los hashtag*/
+
+.tag{
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+}
+
+.scrol{
+    height: 200px;
+
+    overflow-y: scroll;
+}
+
+.mensajes{
+    height: auto;
+}
+
+.fondoHash{
+    color: #404040 ;
+    padding: 5.5px 11px;
+}
+
+.fondoHash:hover{
+    background-color:rgba(170, 172, 216, 0.249);
+    border-radius: 4px;
+    
+}
+
+/*Foto de la shop*/
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    margin-top:20px ;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+.shopFoto{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.foto{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.linkShop{
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+/*Columna final*/
+
+.columnaFin{
+    display: flex;
+    flex-direction: column;
+    color: #404040;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+}
 
 @media (max-width: 744px){
     .itemSearch{
