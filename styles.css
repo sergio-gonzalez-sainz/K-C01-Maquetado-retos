@@ -148,6 +148,25 @@ hr{
     border: 1px solid #f4f808de; 
 }
 
+.btn-06{
+    display: flex;
+    text-decoration: none;  /* Quintamos el color azul del link*/
+    font-size: 30px;         /* Es el groso de la letras*/
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    background-color:#1c1c1c ;
+    border: 2px solid #f80858de;
+    padding: 10px;
+}
+
+.btn-06:hover{
+    color: #f80858de ;
+    font-weight: bold;
+    font-size: 32px;
+    border: 1px solid #f80858de; 
+}
+
 .espacio{
     height: 400px;
 }
