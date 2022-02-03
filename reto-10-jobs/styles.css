@@ -1,0 +1,34 @@
+.bg-verde {
+  background-color: #539d99;
+}
+
+body {
+  background-color: #eef9fa;
+}
+
+.card {
+  background-color: white;
+  border-left: 10px solid #539d99;
+}
+
+.tagSkill {
+  color: #6ca3a1;
+  background-color: #edf6f6;
+}
+
+.tagSkill:hover {
+  background-color: #539d99;
+}
+
+.new {
+  background-color: #539d99;
+}
+
+.font-color {
+  color: #539d99;
+  font-weight: 700;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */

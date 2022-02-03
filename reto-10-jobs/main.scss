@@ -1,0 +1,36 @@
+$fondo-verde: rgb(83,157,153);
+
+.bg-verde{
+    background-color: $fondo-verde;
+}
+
+body{
+    background-color: rgb(238, 249, 250);
+}
+
+.card{
+    background-color: white;
+}
+
+.tagSkill{
+    color: rgb(108,163,161);
+    background-color: rgb(237,246,246);
+   
+}
+
+.tagSkill:hover{
+    background-color: $fondo-verde ;
+}
+.new{
+    background-color: $fondo-verde;
+}
+
+.font-color{
+    color: $fondo-verde;
+    font-weight: 700;
+}
+
+.borderFancy{
+    border-left: 3px solid $fondo-verde;
+  }
+
